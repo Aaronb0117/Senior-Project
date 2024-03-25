@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Multiple Choice Quiz 4</title>
+</head>
+<body>
+    <div id="quiz-container" data-quiz-index="">
+        <!-- Questions will be dynamically added here -->
+    </div>
+    <form id="quizForm">
+        <button type="button" onclick="gradeQuiz()">Submit Quiz</button>
+        <button type="button" onclick="window.location.href = '../homepage.html';">Homepage</button>
+    </form>
+    <p id="result"></p>
+
+    <script src="../script.js"></script>
+    <script>
+        window.addEventListener("load", function() {
+            generateQuiz(3);
+        });
+    </script>
+</body>
+</html>
