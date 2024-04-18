@@ -5,17 +5,46 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="style.css" rel="stylesheet" type="text/css" />
     <title>Registration Page</title>
+
+    <style>
+         body{
+              background-image: url(https://wallpaperaccess.com/full/2407073.jpg);
+            }
+
+            #Heading{
+                text-align: Center;
+                color: rgb(9, 134, 9);
+                font-size: 60px;
+                background-color: white;
+                border: 10px solid;
+                border-color: aqua;
+            }
+
+            #form{
+                color: darkgreen;
+                font-size: 30px;
+                font-weight: bold;
+            }
+
+            #link{
+               color:palevioletred
+            }
+    </style>
 </head>
 <body class="register">
+    <fieldset>
+        <legend id='Heading'><strong>Welcome to Cybercate </strong> </legend>
+        <fieldset id="form">
+            <legend> Create an account</legend>
     <h2>Registration</h2>
     <form id="registrationForm">
-        Username: <input type="text" id="username" required><br>
-        Password: <input type="password" id="password" required><br>
-        First Name: <input type="text" id="firstName" required><br>
-        Last Name: <input type="text" id="lastName" required><br>
+        Username: <input type="text" id="username"  placeholder="Enter a Username" required><br>
+        Password: <input type="password" id="password"  placeholder="Enter a Password"  required><br>
+        First Name: <input type="text" id="firstName"   placeholder="Enter your First Name" required><br>
+        Last Name: <input type="text" id="lastName"  placeholder="Enter your Last Name" required><br>
         <button type="submit">Register</button>
     </form>
-    <p>Already have an account? <a href="index.html">Login here</a>.</p>
+    <p>Already have an account? <a href="index.html" id="link">Login here</a></p>
 
     <script>
         // Function to handle registration form submission
@@ -60,5 +89,7 @@
             });
         });
     </script>
+    </fieldset>
+    </fieldset>
 </body>
 </html>

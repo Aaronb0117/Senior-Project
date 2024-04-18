@@ -156,7 +156,7 @@ app.get('/quizScores', (req, res) => {
     const { username } = req.session.user;
 
     // Query the database to fetch quiz scores for the logged-in user
-    db.query('SELECT quiz1, quiz2, quiz3, quiz4, quiz5, quiz6, quiz7, quiz8, quiz9, quiz10 FROM students WHERE username = ?', [username], (err, result) => {
+    db.query('SELECT quiz1, quiz2, quiz3, quiz4, quiz5, quiz6, quiz7, quiz8, quiz9, quiz10, quiz11 FROM students WHERE username = ?', [username], (err, result) => {
         if (err) {
             console.error('Error fetching quiz scores:', err);
             res.status(500).json({ error: 'Internal Server Error' });
@@ -180,7 +180,8 @@ app.get('/quizScores', (req, res) => {
             quiz7: result[0].quiz7,
             quiz8: result[0].quiz8,
             quiz9: result[0].quiz9,
-            quiz10: result[0].quiz10
+            quiz10: result[0].quiz10,
+            quiz11: result[0].quiz11
         };
 
         // Send the quiz scores as JSON data

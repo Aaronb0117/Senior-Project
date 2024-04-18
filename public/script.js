@@ -152,7 +152,6 @@ function generateQuiz(quizIndex) {
 }
 
 
-// Function to grade the quiz
 function gradeQuiz() {
     const resultContainer = document.getElementById("result");
     const userAnswers = [];
@@ -173,7 +172,7 @@ function gradeQuiz() {
     }, 0);
 
     // Calculate the percentage
-  const percentage = (score / currentQuiz.questions.length) * 100;
+    const percentage = (score / currentQuiz.questions.length) * 100;
 
     // Display the score as a percentage
     resultContainer.textContent = `Your score: ${percentage.toFixed(2)}%`;
@@ -197,7 +196,8 @@ function gradeQuiz() {
 // Array of button IDs to hide
 const buttonsToHide = [
     "module2Btn", "module3Btn", "module4Btn","module5Btn", "module6Btn",
-    "module7Btn", "module8Btn","module9Btn", "module10Btn", "finalAssessmentBtn"
+    "module7Btn", "module8Btn","module9Btn", "module10Btn", "finalAssessmentBtn", 
+    "certBtn"
     ];
 
 // Loop through the array and hide each button
@@ -232,6 +232,7 @@ document.addEventListener("DOMContentLoaded", function() {
         const module9Btn = document.getElementById("module9Btn");
         const module10Btn = document.getElementById("module10Btn");
         const finalAssessmentBtn = document.getElementById("finalAssessmentBtn");
+        const certBtn = document.getElementById("certBtn");
 
         // Check the quiz scores and show/hide buttons accordingly
         if (quizScores.quiz1 >= 80) {
@@ -263,6 +264,9 @@ document.addEventListener("DOMContentLoaded", function() {
         }
         if (quizScores.quiz10 >= 80) {
             finalAssessmentBtn.style.display = "inline-block"; // Show module final assessment button
+        }
+        if (quizScores.quiz11 == 100) {
+            certBtn.style.display = "inline-block"; // Show certification button
         }
     })
     .catch(error => {

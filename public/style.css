@@ -43,22 +43,6 @@ body.homepage {
   color: #FFFFFF;
 }
 
-/* For register.html */
-body.register {
-  background-image: url('images/register-background.png'); 
-  background-repeat: no-repeat;
-  background-size: cover; 
-  color: #FFFFFF;
-}
-
-/* For login.html */
-body.login {
-  background-image: url('images/login-background.png'); 
-  background-repeat: no-repeat;
-  background-size: cover; 
-  color: #FFFFFF;
-}
-
 
 
 h1, h3 {
