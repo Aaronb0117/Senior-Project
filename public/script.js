@@ -130,6 +130,60 @@ const quizzes = [
     {
         questions: [
             {
+                question: "What does Wi-Fi stand for?",
+                options: ["Wireless Network", "Wireless Fidelity", "Wireless Internet", "Wireless Connection"],
+                correctAnswer: "Wireless Fidelity"
+            },
+            
+            {
+                question: "What is the purpose of a Local Area Network (LAN)?",
+                options: ["Connecting devices globally", "Connecting devices in a limited area", "Connecting devices wirelessly", "Connecting devices to the Internet"],
+                correctAnswer: "Connecting devices in a limited area"
+            },
+            
+            {
+                question: "What technology does Wi-Fi use to connect devices to the Internet?",
+                options: ["Bluetooth", "Ethernet", "Wireless networking", "Fiber optics"],
+                correctAnswer: "Wireless networking"
+            },
+            
+            {
+                question: "Which standard must the Wi-Fi process follow?",
+                options: ["IEEE 802.11", "IEEE 802.22", "IEEE 802.3", "IEEE 802.15"],
+                correctAnswer: "IEEE 802.11"
+            },
+            
+            {
+                question: " What do wireless access points allow?",
+                options: ["Connecting to a wireless network", "Connecting to a cellular network", "Connecting to a satellite network", "Connecting to a wired network"],
+                correctAnswer: "Connecting to a wireless network"
+            },
+
+            {
+                question: "What is the definition of Wi-Fi security?",
+                options: ["", "B", "C", "D"],
+                correctAnswer: "C"
+            },
+
+            {
+                question: "What is question 9",
+                options: ["A", "B", "C", "D"],
+                correctAnswer: "C"
+            },
+
+            {
+                question: "What is question 9",
+                options: ["A", "B", "C", "D"],
+                correctAnswer: "C"
+            },
+
+            {
+                question: "What is question 9",
+                options: ["A", "B", "C", "D"],
+                correctAnswer: "C"
+            },
+
+            {
                 question: "What is question 9",
                 options: ["A", "B", "C", "D"],
                 correctAnswer: "C"
