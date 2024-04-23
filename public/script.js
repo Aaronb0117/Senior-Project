@@ -73,10 +73,57 @@ const quizzes = [
     {
         questions: [
             {
-                question: "What is question 8",
-                options: ["A", "B", "C", "D"],
-                correctAnswer: "B"
+                question: "What is the primary topic of this module?",
+                options: ["Cyber hygiene", "Online gaming security", "Video game revenue", "Social engineering"],
+                correctAnswer: "Online gaming security"
             },
+            
+             {
+                question: "What is a video game?",
+                options: ["An outdoor activity involving physical exertion", "An electronic game interacted with using an input device", "A traditional board game played with cards or dice", "A type of puzzle"],
+                correctAnswer: "An electronic game interacted with using an input device"
+            },
+             {
+                question: "What is suggested as critical to understanding due to the rise in video game popularity?",
+                options: ["The history of video games", "The importance of physical exercise", "The risks associated with gaming", "The benefits of gaming"],
+                correctAnswer: "The risks associated with gaming"
+            },
+             {
+                question: "What are some possible technological risks?",
+                options: ["Cyber hygiene and social engineering", "Malware, affected gamer servers, and insecure game coding", "Online safety practices and checking privacy settings", "Virtual mugging and identity theft"],
+                correctAnswer: "Malware, affected gamer servers, and insecure game coding"
+            },
+             {
+                question: "What does gaming security specifically focus on?",
+                options: ["Protecting physical game consoles", "Protecting users while online gaming", "Monitoring gaming revenue", "Enhancing the gaming experience"],
+                correctAnswer: "Protecting users while online gaming"
+            },
+             {
+                question: "What are some recommended practices for online gaming security?",
+                options: ["Choosing a safe username and practicing physical exercise", "Checking privacy settings and practicing Internet safety", "Playing games offline and avoiding cyber hygiene", "Ignoring social risks and technological risks"],
+                correctAnswer: "Checking privacy settings and practicing Internet safety"
+            },
+             {
+                question: "What is the significance of cyber hygiene with gaming security?",
+                options: ["It enhances gaming revenue", "It prevents technological risks", "It improves social interactions", "It boosts physical fitness"],
+                correctAnswer: "It prevents technological risks"
+            },
+             {
+                question: "What is one potential social risk with online gaming?",
+                options: ["Malware", "Social engineering", "Insecure game coding", "Affected gamer servers"],
+                correctAnswer: "Social engineering"
+            },
+             {
+                question: "Where can someone find more information about gaming security?",
+                options: ["Collins", "Twinkl", "CISA", "PWC"],
+                correctAnswer: "CISA"
+            },
+             {
+                question: "What is the primary purpose of choosing a safe username?",
+                options: ["To increase online visibility", "To enhance the gaming experience", "To protect personal identity", "To attract more followers"],
+                correctAnswer: "To protect personal identity"
+            },
+            
             // Add more Quiz 8 questions here...
         ]
     },
