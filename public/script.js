@@ -380,15 +380,68 @@ const quizzes = [
         // Quiz 10 questions
         questions: [
             {
-                question: "What is question 10",
-                options: ["A", "B", "C", "D"],
-                correctAnswer: "D"
+                question: "What is Cyber Hygiene?",
+                options: ["Cleaning electronic devices with disinfectants", "The practice of maintaining system health and improving online security", "A method of preventing physical health issues", "A comparison between digital and personal hygiene"],
+                correctAnswer: "The practice of maintaining system health and improving online security"
             },
-            // Add more Quiz 10 questions here...
+
+            {
+                question: "What are some common issues associated with poor cyber hygiene?",
+                options: ["Data encryption and secure networks", "Data loss, security breaches, and out-of-date software", "Regular updates and software installations", "Cloud storage management and network firewalls"],
+                correctAnswer: "Data loss, security breaches, and out-of-date software"
+            },
+
+            {
+                question: "When does data loss occur?",
+                options: ["When using outdated hardware", "When regularly backing up data", "When hard drives or online cloud storage are not being backed up", "When using secure passwords"],
+                correctAnswer: "When hard drives or online cloud storage are not being backed up"
+            },
+            
+            {
+                question: "What occurs when a user ignores regular updates?",
+                options: ["Improved device performance", "Enhanced security measures", "Out-of-date software and old security software", "Increased productivity"],
+                correctAnswer: "Out-of-date software and old security software"
+            },
+
+            {
+                question: "What is the purpose of creating a cyber hygiene checklist?",
+                options: ["To document the device's IT resources", "To manage new software installations", "To enhance cybersecurity practices", "All of the above"],
+                correctAnswer: "All of the above"
+            },
+
+            {
+                question: "What are some tips included in the cyber hygiene checklist?",
+                options: ["Using disinfectants on electronic devices", "Ignoring software updates", "Implementing a password manager and managing new installs", "Keeping hardware outdated"],
+                correctAnswer: "Implementing a password manager and managing new installs"
+            },
+
+            {
+                question: "Where can someone find more information about cyber hygiene strategies?", 
+                options: ["Lenovo and HP", "DigitalGuardian, USA, and Splunk", "McDonald's and Starbucks", "Walmart and Target"],
+                correctAnswer: "DigitalGuardian, USA, and Splunk"
+            },
+
+            {
+                question: "What is the significance of using a network firewall in cyber hygiene?",
+                options: ["It improves device performance", "It prevents unauthorized access to the network", "It enhances the visual appeal of the device", "It increases data storage capacity"],
+                correctAnswer: "It prevents unauthorized access to the network"
+            },
+
+            {
+                question: "What does the completion of the last in-depth explanation prompt the reader to do?", 
+                options: ["Take a break", "Continue learning about cyber hygiene", "Take a quiz and a final assessment", "Seek more information from various sources"],
+                correctAnswer: "Take a quiz and a final assessment"
+            },
+
+            {
+                question: "What is the overall goal of cyber hygiene?",
+                options: ["To increase data loss", "To enhance system health and improve online security", "To avoid software updates", "To ignore cybersecurity practices"],
+                correctAnswer: "To enhance system health and improve online security"
+            },
         ]
     },
     {
-        // Final Assesment questions
+        // Final Assessment questions
         questions: [
             {
                 question: "What is question Final Assesment",
