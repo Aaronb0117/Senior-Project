@@ -29,7 +29,7 @@ const quizzes = [
                 correctAnswer: "Awareness of potential online threats "
             },
             {
-                question: "How do cybersecurity and internet safety work together?",
+                question: "How does cybersecurity and internet safety work together?",
                 options: ["By competing with each other", "By covering different aspects of digital life", "By providing a dual-layer protection system", "By working independently"],
                 correctAnswer: "By providing a dual-layer protection system"
             },
@@ -587,10 +587,12 @@ const quizzes = [
         // Final Assessment questions
         questions: [
             {
-                question: "What is question Final Assesment",
-                options: ["A", "B", "C", "D"],
-                correctAnswer: "A"
+                question: "How does cybersecurity and internet safety work together?",
+                options: ["By competing with each other", "By covering different aspects of digital life", "By providing a dual-layer protection system", "By working independently"],
+                correctAnswer: "By providing a dual-layer protection system"
             },
+
+            
             // Add more Final Assessment questions here...
         ]
     },

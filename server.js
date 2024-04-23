@@ -113,15 +113,22 @@ app.post('/saveQuiz', (req, res) => {
         if (result.length > 0) {
             const studentId = result[0].id;
             const quizColumnName = `quiz${quizNumber}`;
-            const sqlUpdate = `UPDATE students SET ${quizColumnName} = ? WHERE id = ?`;
-            db.query(sqlUpdate, [quizScore, studentId], (updateErr, updateResult) => {
-                if (updateErr) {
-                    console.error('Error updating quiz score:', updateErr);
-                    res.status(500).json({ error: 'Internal Server Error' });
-                    return;
-                }
-                console.log('Quiz score updated successfully');
-            });
+            const currentQuizScore = result[0][quizColumnName]; // Get the current quiz score from the database
+            if (quizScore > currentQuizScore) { // Check if the new score is higher
+                const sqlUpdate = `UPDATE students SET ${quizColumnName} = ? WHERE id = ?`;
+                db.query(sqlUpdate, [quizScore, studentId], (updateErr, updateResult) => {
+                    if (updateErr) {
+                        console.error('Error updating quiz score:', updateErr);
+                        res.status(500).json({ error: 'Internal Server Error' });
+                        return;
+                    }
+                    console.log('Quiz score updated successfully');
+                    res.status(200).json({ message: 'Quiz score updated successfully' });
+                });
+            } else {
+                console.log('No update needed, current score is higher');
+                res.status(200).json({ message: 'No update needed, current score is higher' });
+            }
         } else {
             res.status(401).json({ error: 'Invalid username or password' });
         }
