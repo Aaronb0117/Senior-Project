@@ -29,7 +29,7 @@ const quizzes = [
                 correctAnswer: "Awareness of potential online threats "
             },
             {
-                question: "How do cybersecurity and internet safety work together?",
+                question: "How does cybersecurity and internet safety work together?",
                 options: ["By competing with each other", "By covering different aspects of digital life", "By providing a dual-layer protection system", "By working independently"],
                 correctAnswer: "By providing a dual-layer protection system"
             },
@@ -224,34 +224,177 @@ const quizzes = [
         // Quiz 5 questions
         questions: [
             {
-                question: "What is question 5",
-                options: ["A", "B", "C", "D"],
-                correctAnswer: "C"
+                question: "What is the main focus of today's discussion?",
+                options: ["Technology advancements, Social media and networking, Online gaming platforms, Cybersecurity threats"],
+                correctAnswer: "Social media and networking"
             },
-            // Add more Quiz 5 questions here...
+            {
+                question: "What does social networking primarily focus on?",
+                options: ["Business Creation, Connection formation and maintenance, Social media safety,Personal information sharing"],
+                correctAnswer: "Connection formation and maintenance"
+            },
+
+            {
+                question: "What distinguishes social media from social networking?",
+                options: [" The number of users, The type of content shared,The purpose of the platform,The geographical location of users"],
+                correctAnswer: "The purpose of the platform"
+            },
+
+            {
+                question: "Where can someone find more information about the difference between social media and social networking?",
+                options: ["RAINN,UAB,WaywardKind,Organization of Social Media Safety"],
+                correctAnswer: "WaywardKind"
+            },
+           
+            {
+                question: "What is emphasized as crucial when posting updates on social media?",
+                options: ["Expressing personal opinions,Following trending topics,Practicing social media safety,Increasing follower count"],
+                correctAnswer: "Practicing social media safety"
+            },
+            {
+                question: "What is one simple tip mentioned for practicing social media safety?",
+                options: ["Sharing personal information openly,Using social media on public Wi-Fi, Making accounts private, Checking in frequently at locations"],
+                correctAnswer: "Making accounts private"
+            },
+            {
+                "question": "What is the significance of learning how to report, block, or filter media shown on social media?",
+                "options": [ "To increase social media engagement", "To ensure accurate information sharing", "To prevent cyberbullying and harassment","To promote online anonymity"],
+                "correctAnswer": "To prevent cyberbullying and harassment"
+            },
+            {
+                "question": "What is the purpose of watching out for suspicious messages on social media?",
+                "options": ["To identify potential cyber threats", "To increase online interactions", "To enhance user experience", "To boost social media presence"],
+                "correctAnswer": "To identify potential cyber threats"
+            },
+
+            {
+                "question": "What is the recommended action regarding clicking on posts on social media platforms?",
+                "options": ["Clicking without hesitation", "Consulting with friends before clicking", "Looking before clicking", "Avoiding clicking altogether"],
+                "correctAnswer": "Looking before clicking"
+              },
+
+            {
+                "question": "What distinguishes social media from social networking, as discussed in the text?",
+                "options": [
+                  "The number of users",
+                  "The type of content shared",
+                  "The purpose of the platform",
+                  "The geographical location of users"
+                ],
+                "correctAnswer": "The purpose of the platform"
+            },          
         ]
     },
     {
         // Quiz 6 questions
         questions: [
             {
-                question: "What is question 6",
-                options: ["A", "B", "C", "D"],
-                correctAnswer: "D"
-            },
-            // Add more Quiz 6 questions here...
+                "question": "What is malware commonly referred to as?",
+                "options": ["Security software", "Malicious software", "Antivirus protection", "System optimization tool"],
+                "correctAnswer": "Malicious software"
+              },
+              {
+                "question": "What is the primary intent of malware?",
+                "options": ["Enhancing computer performance", "Protecting data", "Causing harm", "Providing entertainment"],
+                "correctAnswer": "Causing harm"
+              },
+              {
+                "question": "What are some common purposes of using malware?",
+                "options": ["Enhancing network speed", "Protecting computer systems", "Gaining knowledge and financial gain", "Improving data security"],
+                "correctAnswer": "Gaining knowledge and financial gain"
+              },
+              {
+                "question": "How many types of malware are mentioned?",
+                "options": ["Three", "Five", "Seven", "Ten"],
+                "correctAnswer": "Seven"
+              },
+              {
+                "question": "Which type of malware is the focus of the module?",
+                "options": ["Worms", "Viruses", "Adware", "Ransomware"],
+                "correctAnswer": "Viruses"
+              },
+              {
+                "question": "What is a computer virus?",
+                "options": ["A type of malware that attaches itself to a program or file", "A harmless software application", "A computer repair tool", "An internet browser extension"],
+                "correctAnswer": "A type of malware that attaches itself to a program or file"
+              },
+              {
+                "question": "How does a computer virus spread?",
+                "options": ["By infecting hardware components", "By making copies of itself", "By encrypting files", "By creating backups"],
+                "correctAnswer": "By making copies of itself"
+              },
+              {
+                "question": "What is a common way to protect against computer viruses?",
+                "options": ["Using outdated antivirus software", "Avoiding regular virus scans", "Installing antivirus software from third-party vendors", "Ignoring Internet safety practices"],
+                "correctAnswer": "Installing antivirus software from third-party vendors"
+              },
+              {
+                "question": "What is one recommended action to protect against viruses?",
+                "options": ["Manually deleting infected files", "Storing data only on physical drives", "Regularly backing up data", "Disabling antivirus software"],
+                "correctAnswer": "Regularly backing up data"
+              },
+              {
+                "question": "What cautionary advice is given regarding selecting antivirus software from third-party vendors?",
+                "options": ["Trust any vendor for antivirus software", "Avoid researching third-party vendors", "Research third-party vendors thoroughly", "Install multiple antivirus software from different vendors"],
+                "correctAnswer": "Research third-party vendors thoroughly"
+              }
         ]
     },
     {
         // Quiz 7 questions
         questions: [
             {
-                question: "What is question 7",
-                options: ["A", "B", "C", "D"],
-                correctAnswer: "A"
+              "question": "What is the primary function of a browser?",
+              "options": ["Sending emails", "Playing games", "Finding and displaying content from the World Wide Web", "Editing documents"],
+              "correctAnswer": "Finding and displaying content from the World Wide Web"
             },
-            // Add more Quiz 7 questions here...
-        ]
+            {
+              "question": "What is the World Wide Web?",
+              "options": ["A collection of computer hardware", "A network of physical servers", "A collection of different websites globally", "A software application"],
+              "correctAnswer": "A collection of different websites globally"
+            },
+            {
+              "question": "What is a web browser?",
+              "options": ["A type of website", "A collection of servers", "A software or application used to search and find websites", "A type of computer hardware"],
+              "correctAnswer": "A software or application used to search and find websites"
+            },
+            {
+              "question": "Which of the following are examples of web browsers?",
+              "options": ["Apple and Samsung", "Google, Microsoft Edge, and Mozilla Firefox", "Facebook and Twitter", "Lenovo and McAfee"],
+              "correctAnswer": "Google, Microsoft Edge, and Mozilla Firefox"
+            },
+            {
+              "question": "What is a safe browser?",
+              "options": ["A browser with extra security measures to prevent unauthorized third-party activity", "A browser that allows access to restricted websites", "A browser that prioritizes speed over security", "A browser with built-in ad blockers"],
+              "correctAnswer": "A browser with extra security measures to prevent unauthorized third-party activity"
+            },
+            {
+              "question": "What is an example of third-party activity mentioned in the text?",
+              "options": ["Sending emails", "Playing online games", "Storing cookies", "Writing documents"],
+              "correctAnswer": "Storing cookies"
+            },
+            {
+              "question": "What is the purpose of safe browsing mode?",
+              "options": ["To provide access to restricted websites", "To improve browsing speed", "To enhance user experience", "To provide security from unsafe sites and applications"],
+              "correctAnswer": "To provide security from unsafe sites and applications"
+            },
+            {
+              "question": "What are some safe browsing habits recommended?",
+              "options": ["Clicking on all ads", "Ignoring software updates", "Reporting cyber crimes", "Following random links"],
+              "correctAnswer": "Reporting cyber crimes"
+            },
+            {
+              "question": "What is the significance of keeping software up-to-date?",
+              "options": ["It improves computer performance", "It prevents unauthorized access", "It reduces the need for antivirus software", "It allows access to restricted websites"],
+              "correctAnswer": "It prevents unauthorized access"
+            },
+            {
+              "question": "Where can someone find more information about safe browsing habits?",
+              "options": ["Lenovo", "McAfee", "Wayne State University", "Google"],
+              "correctAnswer": "Wayne State University"
+            }
+          ]
+          
     },
     {
         // Quiz 8 questions
@@ -444,10 +587,12 @@ const quizzes = [
         // Final Assessment questions
         questions: [
             {
-                question: "What is question Final Assesment",
-                options: ["A", "B", "C", "D"],
-                correctAnswer: "A"
+                question: "How does cybersecurity and internet safety work together?",
+                options: ["By competing with each other", "By covering different aspects of digital life", "By providing a dual-layer protection system", "By working independently"],
+                correctAnswer: "By providing a dual-layer protection system"
             },
+
+            
             // Add more Final Assessment questions here...
         ]
     },
