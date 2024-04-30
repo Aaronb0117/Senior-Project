@@ -629,7 +629,88 @@ const quizzes = [
                 correctAnswer: "Personally Identifiable Information"
             },
 
+            {
+                question: "What is the most common type of cyber attack?",
+                options: ["Malware injection", "Denial of Service (DoS)", "Phishing", "Data breach"],
+                correctAnswer: "Phishing"
+            },
+
+              {
+                question: "What distinguishes social media from social networking?",
+                options: [" The number of users, The type of content shared,The purpose of the platform,The geographical location of users"],
+                correctAnswer: "The purpose of the platform"
+            },
+
+             {
+                "question": "What distinguishes social media from social networking, as discussed in the text?",
+                "options": [
+                  "The number of users",
+                  "The type of content shared",
+                  "The purpose of the platform",
+                  "The geographical location of users"
+                ],
+                "correctAnswer": "The purpose of the platform"
+            },          
+
+             {
+                "question": "What is malware commonly referred to as?",
+                "options": ["Security software", "Malicious software", "Antivirus protection", "System optimization tool"],
+                "correctAnswer": "Malicious software"
+              },
+
+              {
+                "question": "What is a computer virus?",
+                "options": ["A type of malware that attaches itself to a program or file", "A harmless software application", "A computer repair tool", "An internet browser extension"],
+                "correctAnswer": "A type of malware that attaches itself to a program or file"
+              },
+
+             {
+              "question": "What is the primary function of a browser?",
+              "options": ["Sending emails", "Playing games", "Finding and displaying content from the World Wide Web", "Editing documents"],
+              "correctAnswer": "Finding and displaying content from the World Wide Web"
+            },
             
+            {
+              "question": "What is the World Wide Web?",
+              "options": ["A collection of computer hardware", "A network of physical servers", "A collection of different websites globally", "A software application"],
+              "correctAnswer": "A collection of different websites globally"
+            },
+
+             {
+                question: "What is suggested as critical to understanding due to the rise in video game popularity?",
+                options: ["The history of video games", "The importance of physical exercise", "The risks associated with gaming", "The benefits of gaming"],
+                correctAnswer: "The risks associated with gaming"
+            },
+
+             {
+                question: "What is the significance of cyber hygiene with gaming security?",
+                options: ["It enhances gaming revenue", "It prevents technological risks", "It improves social interactions", "It boosts physical fitness"],
+                correctAnswer: "It prevents technological risks"
+            },
+
+             {
+                question: "What is the definition of Wi-Fi security?",
+                options: ["Protection of devices from physical damage", "Protection of devices connected in a wired environment", "Protection of devices and networks connected in a wireless environment", "Protection of devices from software errors"],
+                correctAnswer: "Protection of devices and networks connected in a wireless environment"
+            },
+
+             {
+                question: "Which standard must the Wi-Fi process follow?",
+                options: ["IEEE 802.11", "IEEE 802.22", "IEEE 802.3", "IEEE 802.15"],
+                correctAnswer: "IEEE 802.11"
+            },
+
+             {
+                question: "What is Cyber Hygiene?",
+                options: ["Cleaning electronic devices with disinfectants", "The practice of maintaining system health and improving online security", "A method of preventing physical health issues", "A comparison between digital and personal hygiene"],
+                correctAnswer: "The practice of maintaining system health and improving online security"
+            },
+
+            {
+                question: "What are some tips included in the cyber hygiene checklist?",
+                options: ["Using disinfectants on electronic devices", "Ignoring software updates", "Implementing a password manager and managing new installs", "Keeping hardware outdated"],
+                correctAnswer: "Implementing a password manager and managing new installs"
+            },
             // Add more Final Assessment questions here...
         ]
     },
