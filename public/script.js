@@ -621,8 +621,7 @@ const quizzes = [
                 question: "What is the primary objective of password security?",
                 options: ["To restrict access to unauthorized users", "To share sensitive information", "To enhance online entertainment", "To bypass authentication processes"],
                 correctAnswer: "To restrict access to unauthorized users"
-            }
-
+            },
             {
                 question: "What does PII stand for?",
                 options: ["Public Information Identifier", "Personally Intangible Information", "Personal Intelligence Indicator", "Personally Identifiable Information"],
