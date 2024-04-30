@@ -457,7 +457,7 @@ const quizzes = [
     {
         // Quiz 9 questions
         questions: [
-            {
+          {     
                 question: "What does Wi-Fi stand for?",
                 options: ["Wireless Network", "Wireless Fidelity", "Wireless Internet", "Wireless Connection"],
                 correctAnswer: "Wireless Fidelity"
@@ -489,33 +489,34 @@ const quizzes = [
 
             {
                 question: "What is the definition of Wi-Fi security?",
-                options: ["", "B", "C", "D"],
-                correctAnswer: "C"
+                options: ["Protection of devices from physical damage", "Protection of devices connected in a wired environment", "Protection of devices and networks connected in a wireless environment", "Protection of devices from software errors"],
+                correctAnswer: "Protection of devices and networks connected in a wireless environment"
             },
 
             {
-                question: "What is question 9",
-                options: ["A", "B", "C", "D"],
-                correctAnswer: "C"
+                question: "What are the four types of wireless security protocols?",
+                options: ["WEP, WPA, WPA2, WEP3", "WPA, WPA2, WPA3, WPS", "WEP, WPA, WPA2, WPA3", "WPA, WPA2, WPA3, WPA4"],
+                correctAnswer: "WEP, WPA, WPA2, WPA3"
             },
 
             {
-                question: "What is question 9",
-                options: ["A", "B", "C", "D"],
-                correctAnswer: "C"
+                question: "Which wireless security protocol was the first to provide standard methods for network security?",
+                options: ["WPA", "WPA2", "WEP", "WPA3"],
+                correctAnswer: "WEP"
             },
 
             {
-                question: "What is question 9",
-                options: ["A", "B", "C", "D"],
-                correctAnswer: "C"
+                question: "What is one common practice for practicing Wi-Fi security?",
+                options: ["Shopping on public networks", "Using automatic connection", "Using a VPN", "Turning off password security"],
+                correctAnswer: "Using a VPN"
             },
 
             {
-                question: "What is question 9",
-                options: ["A", "B", "C", "D"],
-                correctAnswer: "C"
+                question: "Where can someone find more Wi-Fi security practices?",
+                options: ["Verizon", "Twinkl", "San Diego State University", "STL"],
+                correctAnswer: "San Diego State University"
             },
+
             // Add more Quiz 9 questions here...
         ]
     },
@@ -587,9 +588,45 @@ const quizzes = [
         // Final Assessment questions
         questions: [
             {
+                question: "Which of the following best describes the role of cybersecurity?",
+                options: ["To entertain users on the internet", "To protect devices, users, and businesses from digital threats", "To provide social media services", "To sell security software"],
+                correctAnswer: "To protect devices, users, and businesses from digital threats"
+            },
+            
+            {
                 question: "How does cybersecurity and internet safety work together?",
                 options: ["By competing with each other", "By covering different aspects of digital life", "By providing a dual-layer protection system", "By working independently"],
                 correctAnswer: "By providing a dual-layer protection system"
+            },
+
+             {
+                question: "What is bullying characterized by?",
+                options: ["Random actions with no intention", "Causing happiness and wellbeing", "Repeated actions causing distress", "Single occurrences of conflict"],
+                correctAnswer: "Repeated actions causing distress"
+            },
+
+            {
+                question: "What is the overall tone of the text regarding bullying in the program?",
+                options: ["Encouraging participation in bullying", "Strict intolerance towards bullying", "Promotion of bullying behaviors", "Indifference towards bullying incidents"],
+                correctAnswer: "Strict intolerance towards bullying"
+            },
+
+               {
+                question: "What does the CIA stand for in the context of password security?",
+                options: ["Central Information Access", "Confidentiality, Integrity, and Availability", "Cybersecurity Intelligence Agency", "Common Identification Authentication"],
+                correctAnswer: "Confidentiality, Integrity, and Availability"
+            },
+
+            {
+                question: "What is the primary objective of password security?",
+                options: ["To restrict access to unauthorized users", "To share sensitive information", "To enhance online entertainment", "To bypass authentication processes"],
+                correctAnswer: "To restrict access to unauthorized users"
+            }
+
+            {
+                question: "What does PII stand for?",
+                options: ["Public Information Identifier", "Personally Intangible Information", "Personal Intelligence Indicator", "Personally Identifiable Information"],
+                correctAnswer: "Personally Identifiable Information"
             },
 
             
